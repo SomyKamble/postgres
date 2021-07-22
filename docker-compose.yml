@@ -8,6 +8,8 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: Sabertoothtech@1234
+    ports:
+    - 5432:5432
 
   adminer:
     image: adminer
